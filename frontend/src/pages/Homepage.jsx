@@ -56,7 +56,7 @@ const Homepage = () => {
                             <li className="hover:text-[#5b5b5b] cursor-pointer">Products</li>
                             <li className="hover:text-[#5b5b5b] cursor-pointer">Contact us</li>
                         </ul>
-                        <button className="mt-4 md:mt-0 border border-[#B2B2B2] text-[#B2B2B2] py-1 px-6 rounded hover:border-[#5b5b5b]">
+                        <button className="hidden md:block mt-4 md:mt-0 border border-[#B2B2B2] text-[#B2B2B2] py-1 px-6 rounded hover:border-[#5b5b5b]">
                             Why Us
                         </button>
                     </div>
@@ -117,8 +117,8 @@ const Homepage = () => {
 
 
             <div className='max-w-[80%] m-auto my-[10rem] pt-10' data-aos="fade-up">
-                <div className='flex flex-col lg:flex-row mt-11 items-center justify-between'>
-                    <div className='flex flex-col space-y-5 lg:space-y-5 lg:flex-col '>
+                <div className='flex flex-col-reverse lg:flex-row mt-11 items-center justify-between'>
+                    <div className='flex flex-col space-y-5 lg:space-y-5 lg:flex-col mt-8 lg:mt-0'>
                         <img data-aos="fade-up" className="w-full sm:w-[48%] lg:w-[75%]" src={house_material1} alt='house_material1' />
                         <img data-aos="fade-up" className="w-full sm:w-[48%] lg:w-[75%]" src={house_material3} alt='house_material2' />
                         <img data-aos="fade-up" className="w-full sm:w-[48%] lg:w-[75%]" src={house_material2} alt='house_material3' />
