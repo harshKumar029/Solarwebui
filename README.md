@@ -4,6 +4,10 @@ Welcome to the Solar Web UI project! This project features a modern and responsi
 
 > Note: This is a responsive design created for an internship assignment purpose.
 
+## Project Details
+
+This project was completed as part of an internship assignment. The UI design took approximately 4 hours to complete, and the development using React, Tailwind CSS, and the latest tech stack took around 5 hours.
+
 ## Live Demo
 
 [Visit the live site](https://solarwebui.vercel.app/)
